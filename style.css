@@ -45,7 +45,6 @@ header .bottom-nav button p {
   padding: 2px;
 }
 
-
 main .banner {
   width: 100%;
   height: calc(100vh*0.15);
@@ -76,4 +75,40 @@ main .banner p {
 main .banner i {
   color:red;
   font-size:11px;
+}
+
+main .today-menu{
+  width: 100%;
+  background-color: #FFF;
+  margin: 10px 0;
+}
+
+main .today-menu h3 {
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 24px;
+  color: #3D3C3C;
+  padding: 20px 20px;
+}
+
+main .menu-interface {
+  width: 100%;
+  height: calc(100vh*0.4);
+  display: flex;
+}
+
+main .menu-img {
+  width: 100%;
+  height: calc(100vh*0.4);
+  background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main button {
+  color: #3D3C3C;
+  font-size: 40px;
+  border: none;
+  padding: 0 10px;
 }
