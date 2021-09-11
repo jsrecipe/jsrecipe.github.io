@@ -8,7 +8,7 @@ header .top-nav {
   height: calc(100vh*0.08);
   width: 100%;
   background-color: #FFF;
-  box-shadow: 1px 0.1px 10px #808080;
+  box-shadow: 1px 1px 10px #CCD1D1;
   position: absolute;
 }
 
@@ -24,7 +24,7 @@ header .bottom-nav {
   height: calc(100vh*0.08);
   width: 100%;
   background-color: #FFF;
-  box-shadow: 1px 1px 10px #808080;
+  box-shadow: 1px 1px 10px #CCD1D1;
   position: fixed;
   bottom: 0;
 }
@@ -54,4 +54,9 @@ main .banner p {
   text-align: right;
   text-shadow: 1.5px 1.5px 2px #111;
   padding: 2px 36px 0 0;
+}
+
+main .banner i {
+  color:red;
+  font-size:11px;
 }
