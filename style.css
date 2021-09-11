@@ -31,7 +31,7 @@ header .bottom-nav {
 
 main .banner {
   width: 100%;
-  height: calc(100vh*0.14);
+  height: calc(100vh*0.15);
   padding: calc(100vh*0.08) 0;
   background-image: url(img/banner.jpg);
   background-size: cover;
