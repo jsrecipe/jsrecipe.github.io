@@ -5,7 +5,7 @@
 }
 
 header .top-nav {
-  height: calc(100vh*0.08);
+  height: calc(100vh*0.09);
   width: 100%;
   background-color: #FFF;
   box-shadow: 1px 1px 10px #000;
@@ -16,7 +16,7 @@ header .top-nav a {
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
   color: #424949;
-  line-height: calc(100vh*0.08);
+  line-height: calc(100vh*0.09);
   margin: 0 20px;
 }
 
@@ -32,7 +32,7 @@ header .bottom-nav {
 main .banner {
   width: 100%;
   height: calc(100vh*0.15);
-  padding: calc(100vh*0.08) 0;
+  padding: calc(100vh*0.09) 0;
   background-image: url(img/banner.jpg);
   background-size: cover;
   background-position: bottom;
