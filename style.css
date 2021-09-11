@@ -16,7 +16,7 @@ header .top-nav a {
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
   color: #424949;
-  line-height: calc(100vh*0.09);
+  line-height: calc(100vh*0.08);
   margin: 0 20px;
 }
 
