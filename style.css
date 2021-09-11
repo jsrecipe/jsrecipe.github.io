@@ -4,6 +4,10 @@
   text-decoration: none;
 }
 
+body {
+  background-color: #F2EFED;
+}
+
 header .top-nav {
   height: calc(100vh*0.08);
   width: 100%;
@@ -79,8 +83,9 @@ main .banner i {
 
 main .today-menu{
   width: 100%;
+  height: calc(100vh*0.6);
   background-color: #FFF;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 main .today-menu h3 {
@@ -111,4 +116,40 @@ main button {
   font-size: 40px;
   border: none;
   padding: 0 10px;
+  background-color: #FFCCCC;
+}
+
+footer {
+  width: 100%;
+  height: calc(100vh*0.25);
+  background-color: #444445;
+  margin: 10px 0;
+  display: flex;
+}
+
+footer ul {
+  padding: 15px;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 5px
+}
+
+footer ul li a {
+  color: #FFF;
+}
+
+footer .footer-logo {
+  position: absolute;
+  right: 10px;
+}
+
+footer .footer-logo button {
+  color: #FFF;
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+
 }
