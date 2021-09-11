@@ -96,13 +96,17 @@ main .today-menu h3 {
   padding: 20px 20px;
 }
 
-main .menu-interface {
+main .menu-img-1 {
   width: 100%;
   height: calc(100vh*0.4);
-  display: flex;
+  background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 0 20px 0;
 }
 
-main .menu-img {
+main .menu-img-2 {
   width: 100%;
   height: calc(100vh*0.4);
   background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
@@ -111,45 +115,11 @@ main .menu-img {
   background-position: center;
 }
 
-main button {
-  color: #3D3C3C;
-  font-size: 40px;
-  border: none;
-  padding: 0 10px;
-  background-color: #FFCCCC;
-}
-
-footer {
+main .menu-img-3 {
   width: 100%;
-  height: calc(100vh*0.25);
-  background-color: #444445;
-  margin: 10px 0;
-  display: flex;
-}
-
-footer ul {
-  padding: 15px;
-}
-
-footer ul li {
-  list-style: none;
-  padding: 5px
-}
-
-footer ul li a {
-  color: #FFF;
-}
-
-footer .footer-logo {
-  position: absolute;
-  right: 10px;
-}
-
-footer .footer-logo button {
-  color: #FFF;
-  background-color: transparent;
-  font-size: 30px;
-  border: none;
-  padding: 10px;
-
+  height: calc(100vh*0.4);
+  background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
