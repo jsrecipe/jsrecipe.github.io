@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #F2EFED;
+  background-color: #FFF;
 }
 
 header .top-nav {
-  height: calc(100vh*0.08);
+  height: calc(100vh*0.09);
   width: 100%;
   background-color: #FFF;
-  box-shadow: 1px 1px 10px #000;
+  box-shadow: 1px 1px 5px #EAE8E4;
   position: absolute;
 }
 
@@ -20,7 +20,7 @@ header .top-nav a {
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
   color: #424949;
-  line-height: calc(100vh*0.08);
+  line-height: calc(100vh*0.09);
   margin: 0 20px;
 }
 
@@ -28,7 +28,7 @@ header .bottom-nav {
   height: calc(100vh*0.09);
   width: 100%;
   background-color: #FFF;
-  box-shadow: 1px 1px 10px #000;
+  box-shadow: 1px 1px 5px #EAE8E4;
   position: fixed;
   bottom: 0;
   display: flex;
@@ -47,79 +47,4 @@ header .bottom-nav button p {
   color: #424949;
   font-size: 9px;
   padding: 2px;
-}
-
-main .banner {
-  width: 100%;
-  height: calc(100vh*0.15);
-  padding: calc(100vh*0.08) 0;
-  background-image: url(img/banner.jpg);
-  background-size: cover;
-  background-position: bottom;
-}
-
-main .banner h2 {
-  font-size: 28px;
-  font-weight: 1000;
-  color: #FFF;
-  text-align: center;
-  text-shadow: 2px 2px 3px #111;
-  padding-top: calc(100vh*0.07);
-}
-
-main .banner p {
-  font-size: 15px;
-  font-weight: 600;
-  color: #FFF;
-  text-align: right;
-  text-shadow: 1.5px 1.5px 2px #111;
-  padding: 2px 36px 0 0;
-}
-
-main .banner i {
-  color:red;
-  font-size:11px;
-}
-
-main .today-menu{
-  width: 100%;
-  height: calc(100vh*0.6);
-  background-color: #FFF;
-  margin: 20px 0;
-}
-
-main .today-menu h3 {
-  font-family: fantasy;
-  font-weight: 100;
-  font-size: 24px;
-  color: #3D3C3C;
-  padding: 20px 20px;
-}
-
-main .menu-img-1 {
-  width: 100%;
-  height: calc(100vh*0.4);
-  background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 0 20px 0;
-}
-
-main .menu-img-2 {
-  width: 100%;
-  height: calc(100vh*0.4);
-  background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-main .menu-img-3 {
-  width: 100%;
-  height: calc(100vh*0.4);
-  background-image:  url(img/recipes/carbonaraSpaghetti.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
